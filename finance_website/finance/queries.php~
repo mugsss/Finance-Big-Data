@@ -1,0 +1,8 @@
+<?php
+$mysqli = new mysqli("127.0.0.1", "ruch@domain.com", "myPassword", "finance","3306");
+if ($mysqli) {
+    echo "Connected!";
+  } else {
+    echo "Connection Failed";
+  }
+?>
